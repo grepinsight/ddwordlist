@@ -11,3 +11,19 @@ To install `ddwordlist`, run:
 ```sh
 go install github.com/grepinsight/ddwordlist@latest
 ```
+
+## Usage
+
+```bash
+$ ./ddwordlist -h
+Usage:
+  ddwordlist --input-csv <input-csv> [--output-csv <output-csv>] [--tags <tags>]
+  ddwordlist -i <input-csv> [-o <output-csv>] [--tags <tags>]
+
+Options:
+  --input-csv, -i    Input CSV file (required)
+  --output-csv, -o   Output CSV file (default: stdout)
+  --tags             Tags to use in the third field (default: japanese/daumdict)
+  --help, -h         Show help message
+  --version, -v      Show version
+```k
