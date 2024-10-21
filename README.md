@@ -9,5 +9,5 @@ You need to have Go installed.
 To install `ddwordlist`, run:
 
 ```sh
-go install github.com/yourusername/ddwordlist@latest
+go install github.com/grepinsight/ddwordlist@latest
 ```
